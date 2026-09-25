@@ -1,0 +1,31 @@
+import print
+
+# a = int(input("#1"))
+# b = int(input("#2"))
+# c = int(input("#3"))
+
+a, b, c = map(int)(), input("введи тир числа через пробіл: ")).split())
+if a > b and a > c:
+    print(a)
+elif b > a and b > c:
+    print(b)
+elif c > a and c > b:
+    print(c)
+else:
+    print("a == b == c")
+
+# if a > b:
+#     if a > c:
+#         print(a)
+# elif b > a:
+#     if b > c:
+#         print(b)
+#     else:
+#         print(c)
+# elif c > a:
+#     if c > b:
+#         print(c)
+#     else:
+#         print(b)
+# else:
+#     print("a == b == c")
