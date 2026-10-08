@@ -40,7 +40,6 @@
 #         print("Неправильний вибір фігури!")
 #
 # main()
-import total
 
 
 # def digit_sum(n):
